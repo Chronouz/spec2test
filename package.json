@@ -1,0 +1,16 @@
+{
+  "name": "spec2test-mobile-banking",
+  "version": "1.0.0",
+  "description": "Cypress TypeScript Automation Test Suite — Transfer Dana Antar Rekening Mobile Banking",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:headless": "cypress run --browser chrome --headless",
+    "cy:run:transfer": "cypress run --spec \"cypress/e2e/transfer-dana/transfer-dana.cy.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "typescript": "^5.3.3"
+  }
+}
